@@ -6,7 +6,7 @@ import srcImg from "../images/avataaars.svg"
 export default function home() {
   return (
       <>
-          <div id='home' className="homeContent d-flex justify-content-center align-items-center text-white flex-column mt-5 mb-5" >
+          <div id='home' className="homeContent d-flex justify-content-center align-items-center text-white flex-column mt-5 " >
               <div className="homeImage mb-3">
                   <img src={srcImg} alt="" />
               </div>
