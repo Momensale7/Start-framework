@@ -8,7 +8,7 @@ import {RouterProvider, createBrowserRouter } from "react-router-dom";
 let me = createBrowserRouter([
   {
     path: "", element: <Layout />, children: [
-      { path:'home', element: <Home /> },
+      { index:'true', element: <Home /> },
       { path: "about", element: <About /> },
       { path: "portfolio", element: <Portfolio /> },
       { path: "contact", element: <Contact /> },
