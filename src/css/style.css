@@ -61,3 +61,18 @@
 .copyRight{
     background-color: rgb(26 37 47);
 }
+.fit{
+width:fit-content;
+}
+.active{
+    background-color: #1abc9c;
+   
+    padding: 5px;
+    border-radius: 10px;
+}
+
+@media (max-width:600px){
+    #srcImg{
+        width: 100% !important;
+    }
+}
